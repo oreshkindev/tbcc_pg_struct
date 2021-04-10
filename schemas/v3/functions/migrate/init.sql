@@ -8,7 +8,7 @@ PARALLEL SAFE
 AS
 $function$
 DECLARE
-usr_id UUID;
+  usr_id UUID;
   usr_useraddress TEXT[];
   usr_accounttype TEXT;
   usr_smartcard BOOLEAN;
