@@ -68,3 +68,14 @@ smartcard BOOLEAN
 
 #### Return type
 JSON
+
+### Function v3.grab_key
+Binds a free vpn_key to a given user.
+
+#### Arguments
+user_id UUID
+used BOOLEAN
+txhash TEXT
+
+#### Return type
+JSON
