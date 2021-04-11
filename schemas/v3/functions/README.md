@@ -57,3 +57,14 @@ smartcard BOOLEAN
 
 #### Return type
 JSON
+
+### Function v3.add_user
+Adds a new user to DB.
+
+#### Arguments
+useraddress TEXT[]
+accounttype TEXT
+smartcard BOOLEAN
+
+#### Return type
+JSON
