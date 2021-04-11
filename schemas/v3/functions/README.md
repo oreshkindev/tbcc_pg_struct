@@ -9,3 +9,21 @@ address TEXT[]
 
 #### Return type
 JSON
+
+### Function v3.get_user
+Returns user info by UUID.
+
+#### Arguments
+user_id UUID
+
+#### Return type
+JSON
+
+### Function v3.get_app_config
+Returns app config.
+
+#### Arguments
+none
+
+#### Return type
+JSON
