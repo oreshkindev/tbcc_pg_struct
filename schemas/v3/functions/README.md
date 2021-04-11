@@ -45,3 +45,15 @@ addresses TEXT[]
 
 #### Return type
 BOOLEAN
+
+### Function v3.update_user
+Updates given user in a DB.
+
+#### Arguments
+user_id UUID,
+useraddress TEXT[]
+accounttype TEXT
+smartcard BOOLEAN
+
+#### Return type
+JSON
