@@ -91,12 +91,7 @@ res := json_build_object(
   'accounttype', usr_accounttype,
   'smartcard', usr_smartcard,
   'vpn_keys', vk,
-  'app_config', (
-    SELECT
-      row_to_json(ac)
-    FROM
-      v3.app_config ac
-    )
+  'app_config', v3.get_app_config()
   );
 
 RETURN res;

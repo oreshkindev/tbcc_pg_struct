@@ -11,7 +11,8 @@ $function$
   SELECT
     row_to_json(ac)
   FROM
-    v3.app_config ac;
+    v3.app_config ac
+  LIMIT 1;
   
 $function$
 ;
