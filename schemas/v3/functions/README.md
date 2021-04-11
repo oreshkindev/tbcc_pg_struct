@@ -19,6 +19,15 @@ user_id UUID
 #### Return type
 JSON
 
+### Function v3.get_user_extended
+Returns extended user info by UUID.
+
+#### Arguments
+user_id UUID
+
+#### Return type
+JSON
+
 ### Function v3.get_app_config
 Returns app config.
 
@@ -27,3 +36,12 @@ none
 
 #### Return type
 JSON
+
+### Function v3.check_user_address
+Checks if anyone has any of given addresses.
+
+#### Arguments
+addresses TEXT[]
+
+#### Return type
+BOOLEAN
